@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .quemSomos{
+    background-color: antiquewhite;
+    height: 200px;
+  
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+    }
+  .titulo{
+      font-size: 50px;
+  }
+  .subtitulo{
+      font-size: 15px;
+      
+  }
+  .textoQuemSomos{
+      padding-top: 10px;
+      font-size: 20px;
+      text-align: center;
+      padding-bottom:10px ;
+      
+  }
+  .botaoQuemSomos{
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 100px;
+    padding-bottom: 10px;
+      
+      
+  }
+    
+  .simula{
+      display: flex;
+      padding: 10px;
+      justify-content: space-between;
+      
+      
+  }
+  .cardSimula{
+     background-color: antiquewhite;
+     width: 200px;
+     height: 250px;
+     padding: 20px;
+     text-align: center;
+  }
+  .tituloCard{
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  .imagemCard{
+      height: 100px;
+  }
+  .empRapido{ 
+    background-color: antiquewhite;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .empTitulo{
+    font-size: 50px;
+  }
+  .empText{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom:10px ;
+    
+  }
