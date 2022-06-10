@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div-pai{
+    display: grid;
+    grid-template-rows: auto 90vh 5vh; /* 90% de altura da minha área visível. */
+}
+
+header{
+    background: rgb(148, 206, 61);
+    display: grid;
+    grid-template-columns: 175px 1fr;
+    justify-items: end;
+    align-items: center;
+}
+
+.imagem-logo{
+    width: 175px;
+}
+
+button{
+    margin-right: 2pc;
+    padding: 2px 5pc 2pc 5pc;
+}
+
+.principal{
+    background: rgb(40, 41, 40);
+
+}
+    
+.rodape{
+    /* background: rgb(192, 198, 199)
+    background: rgb(227, 193, 199) */
+
+    background: rgb(205, 184, 206);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    grid-column: 1/-1;
+}
+
+.imagem-do-cartao{
+    width:20%
+}
