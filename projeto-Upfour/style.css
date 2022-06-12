@@ -17,9 +17,9 @@ header{
   height: 60px;
   width: 140px;
   border-radius: 20px;
-  border-color: rgb(210, 194, 176);
+  border-color: white;
   background-color: rgb(210, 194, 176);
-  color: white;
+  color: black;
   font-style: italic;
   font-size: medium;
 
