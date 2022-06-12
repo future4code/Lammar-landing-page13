@@ -141,3 +141,22 @@ header{
   border-radius: 50px;
    
 }
+
+.main-perguntas{
+  background-color: white;
+  
+}
+
+#h1-perguntas{
+  display: flex;
+  justify-content: center;
+}
+
+.perguntas{
+  background-color: rgb(210, 194, 176);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+ border: solid ;
+}
