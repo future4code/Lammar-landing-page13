@@ -58,3 +58,14 @@ footer{
 .imagem-do-cartao{
     width:20%;
 }
+
+.icone-e-texto{
+    display: flex;
+    align-items: center;
+}
+
+.icone{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
