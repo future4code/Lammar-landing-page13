@@ -34,6 +34,7 @@ button{
     /* background: rgb(192, 198, 199)
     background: rgb(227, 193, 199) */
 
+
     background: rgb(205, 184, 206);
 }
 
@@ -65,7 +66,7 @@ footer{
 }
 
 .icone{
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     margin-right: 10px;
 }
