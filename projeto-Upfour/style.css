@@ -161,9 +161,14 @@ header{
  border: solid ;
 }
 
+.icone{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
 .rodape{
-  /* background: rgb(192, 198, 199)
-  background: rgb(227, 193, 199) */
   justify-content: center;
   background: rgb(205, 184, 206);
 }
+
