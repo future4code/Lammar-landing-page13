@@ -161,4 +161,9 @@ header{
  border: solid ;
 }
 
-
+.rodape{
+  /* background: rgb(192, 198, 199)
+  background: rgb(227, 193, 199) */
+  justify-content: center;
+  background: rgb(205, 184, 206);
+}
