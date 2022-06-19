@@ -1,4 +1,5 @@
 
+
 *{
   margin: 0;
   padding: 0;
@@ -27,16 +28,16 @@ header{
 
 
 
-/*main pagina 2 para celular */
+/*main index para celular */
 @media screen and (min-device-width: 414px) and (max-device-width:736px){
 .quemSomos{
  
   height: 450px;
   background-color: #f2f2f2;
   display: flex;
-  
   flex-direction: column;
   align-items: center;
+  
   }
 .tituloQuemSomos{
     font-size: 50px;
@@ -59,6 +60,7 @@ header{
   align-items: end;
   padding-right: 100px;
   padding-bottom: 30px;
+
  
     
     
@@ -91,21 +93,32 @@ header{
 }
 .tituloCard{
   padding: 15px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .imagemCard{
     height: 100px;
+
 }
+
+p{
+ font-size: 25px;
+}
+
 .empRapido{ 
   
+  
+  
+  
   background-color: #f2f2f2 ;
-  height: 600px;
-  padding: 10px;
+  height: 1000px;
+  padding: 20px;
   display: flex;
   color: black;
   flex-direction: column;
   align-items: center;
+ text-align: center;
+  
 
 }
 .empTitulo{
@@ -113,22 +126,27 @@ header{
   font-size: 50px;
 }
 .empText{
-  width: 600px;
+  width: 400px;
   padding-top: 10px;
   font-size: 20px;
   text-align: center;
   padding-bottom:10px ;
   
+  
 }
+
+
 
 .cards{
   display: flex;
+  flex-direction: column;
+  
 }
 
 .cardSimulaEmp{
   
-  width: 200px;
-  height: 250px;
+  width: 250px;
+  height: 300px;
   padding: 20px;
   text-align: center;
 }
@@ -141,8 +159,8 @@ header{
    
 }
 }
-/* fim do index celular main */
-/* index pc main */
+/* main index para celular fim */
+/* main index para pc */
 
 @media screen and (min-device-width: 720px) {
   .quemSomos{
@@ -153,6 +171,7 @@ header{
   
     flex-direction: column;
     align-items: center;
+    
     }
   .tituloQuemSomos{
       font-size: 50px;
@@ -176,6 +195,7 @@ header{
     align-items: end;
     padding-right: 100px;
     padding-bottom: 30px;
+    
    
       
       
@@ -222,6 +242,7 @@ header{
     color: black;
     flex-direction: column;
     align-items: center;
+    
   
   }
   .empTitulo{
@@ -258,7 +279,7 @@ header{
   }
   }
 
-/* fim index pc main */
+/* fim main para PC */
 
 .main-perguntas{
   background-color: white;
@@ -337,6 +358,8 @@ header{
   /* fim da pagina 2*/
 
 }
+/*fim main pagina 2 para celular */
+/*main pagina 2 para PC */
 @media screen and (min-device-width: 737px){
 .contato {
   /* Apenas para centralizar o form na página */
@@ -387,3 +410,4 @@ textarea {
 
 /* fim da pagina 2*/
 }
+/*fim main pagina 2 para PC */
