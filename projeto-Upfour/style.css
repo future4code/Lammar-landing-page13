@@ -412,3 +412,44 @@ textarea {
 /* fim da pagina 2*/
 }
 /*fim main pagina 2 para PC */
+
+
+
+.rodape{
+  /* background: rgb(192, 198, 199)
+  background: rgb(227, 193, 199) */
+
+
+  justify-content: center;
+  background: rgb(205, 184, 206);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  height: 40px;
+  padding: 0 20px;
+  grid-column: 1/-1;
+}
+.cartao-do-produto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 5px  rgb(205, 184, 206);
+  text-align: center;   
+}
+.imagem-do-cartao{
+  width:20%;
+}
+.icone-e-texto{
+  display: flex;
+  align-items: center;
+}
+.icone{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
