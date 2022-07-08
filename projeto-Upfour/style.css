@@ -1,0 +1,455 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #1f1f24;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.Button-Topo{
+  height: 60px;
+  width: 140px;
+  border-radius: 20px;
+  border-color: white;
+  background-color: rgb(210, 194, 176);
+  color: black;
+  font-style: italic;
+  font-size: medium;
+
+}
+
+
+
+/*main index para celular */
+@media screen and (min-device-width: 414px) and (max-device-width:736px){
+.quemSomos{
+ 
+  height: 450px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+.tituloQuemSomos{
+    font-size: 50px;
+}
+.subtituloQuemSomos{
+    font-size: 25px;
+    
+}
+.textoQuemSomos{
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom:10px ;
+    
+}
+.botaoQuemSomos{
+  display: flex;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 100px;
+  padding-bottom: 30px;
+
+ 
+    
+    
+}
+ 
+.botaoAjustado{
+  font-size: 30px;
+  padding: 2px 15px 2px 15px;
+  border-radius: 5px;
+  background-color:#D2C2B0  ;
+ 
+}
+.servicos{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    
+}
+.cardServicos{
+   background-color: #D2C2B0;
+   width: 300px;
+   height: 310px;
+   padding: 60px;
+   text-align: center;
+   color: #1f1f24 ;
+   box-shadow: 0 0 1em black;
+
+}
+.tituloCard{
+  padding: 15px;
+  font-size: 30px;
+}
+
+.imagemCard{
+    height: 100px;
+
+}
+
+p{
+ font-size: 25px;
+}
+
+.empRapido{ 
+  
+  
+  
+  
+  background-color: #f2f2f2 ;
+  height: 1000px;
+  padding: 20px;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  align-items: center;
+ text-align: center;
+  
+
+}
+.empTitulo{
+  padding-top: 40px;
+  font-size: 50px;
+}
+.empText{
+  width: 400px;
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom:10px ;
+  
+  
+}
+
+
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.cardSimulaEmp{
+  
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+}
+.botaoSimular{
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  padding: 2px 15px 2px 15px;
+  border-radius: 50px;
+   
+}
+}
+/* main index para celular fim */
+/* main index para pc */
+
+@media screen and (min-device-width: 720px) {
+  .quemSomos{
+   
+    height: 200px;
+    background-color: #f2f2f2;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+    
+    }
+  .tituloQuemSomos{
+      font-size: 50px;
+  }
+  .subtituloQuemSomos{
+      font-size: 15px;
+      
+  }
+  .textoQuemSomos{
+      padding-top: 10px;
+      font-size: 20px;
+      text-align: center;
+      padding-bottom:10px ;
+      
+  }
+  .botaoQuemSomos{
+    display: flex;
+    background-color: #f2f2f2;
+  
+    flex-direction: column;
+    align-items: end;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    
+   
+      
+      
+  }
+   
+  .botaoAjustado{
+    font-size: 20px;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+    background-color:#D2C2B0  ;
+   
+  }
+  .servicos{
+      display: flex;
+      padding: 0px 60px 0px 60px;
+      justify-content: space-evenly;
+      background-color: white;
+      
+      
+  }
+  .cardServicos{
+     background-color: #D2C2B0;
+     width: 200px;
+     height: 310px;
+     padding: 20px;
+     text-align: center;
+     color: #1f1f24 ;
+     box-shadow: 0 0 1em black;
+  }
+  .tituloCard{
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  .imagemCard{
+      height: 100px;
+  }
+  .empRapido{ 
+    
+    background-color: #f2f2f2 ;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    
+  
+  }
+  .empTitulo{
+    padding-top: 40px;
+    font-size: 50px;
+  }
+  .empText{
+    width: 600px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom:10px ;
+    
+  }
+  
+  .cards{
+    display: flex;
+  }
+  
+  .cardSimulaEmp{
+    
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+  }
+  .botaoSimular{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    padding: 2px 15px 2px 15px;
+    border-radius: 50px;
+     
+  }
+  }
+
+/* fim main para PC */
+
+.main-perguntas{
+  background-color: white;
+  
+}
+
+#h1-perguntas{
+  display: flex;
+  justify-content: center;
+}
+
+.perguntas{
+  background-color: rgb(210, 194, 176);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+ border: solid ;
+}
+
+/*main pagina 2 para celular */
+@media screen and (min-device-width: 414px) and (max-device-width:736px){ 
+  .contato {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 350px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #D2C2B0;
+    font-size: 25px;
+  }
+  form div + div {
+    margin-top: 1em;
+  }
+  label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+  
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+  }
+  input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+  }
+  textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+  
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+  
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+  }
+  .botaoContato{
+      font-size: 25px;
+      padding: 5px;
+      border-radius: 10px;
+  }
+
+  /* fim da pagina 2*/
+
+}
+/*fim main pagina 2 para celular */
+/*main pagina 2 para PC */
+@media screen and (min-device-width: 737px){
+.contato {
+  /* Apenas para centralizar o form na página */
+  margin: 0 auto;
+  width: 500px;
+  /* Para ver as bordas do formulário */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: #D2C2B0;
+}
+form div + div {
+  margin-top: 1em;
+}
+label {
+  /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+  font: 1em sans-serif;
+
+  /* Para dar o mesmo tamanho a todos os campo de texto */
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  border: 1px solid #999;
+}
+input:focus, textarea:focus {
+  /* Dar um pouco de destaque nos elementos ativos */
+  border-color: #000;
+}
+textarea {
+  /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+  vertical-align: top;
+
+  /* Para dar espaço suficiente para digitar algum texto */
+  height: 5em;
+
+  /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+  resize: vertical;
+}
+
+/* fim da pagina 2*/
+}
+/*fim main pagina 2 para PC */
+
+
+
+.rodape{
+  /* background: rgb(192, 198, 199)
+  background: rgb(227, 193, 199) */
+
+
+  justify-content: center;
+  background: rgb(205, 184, 206);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  height: 40px;
+  padding: 0 20px;
+  grid-column: 1/-1;
+}
+.cartao-do-produto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 5px  rgb(205, 184, 206);
+  text-align: center;   
+}
+.imagem-do-cartao{
+  width:20%;
+}
+.icone-e-texto{
+  display: flex;
+  align-items: center;
+}
+.icone{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
